@@ -1,0 +1,235 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+}
+
+body {
+	text-align: center;
+	font-family: poppins;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	
+}
+#header {
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 20px;
+	color: #fff;
+}
+.banner-area {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background-image: url('images/SuperC_RWTH.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h2 {
+	padding-top: 3%;
+	font-size: 300%;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 275px;
+	background: #ebebeb;
+	height: 2500px;
+}
+.content-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+.content-area-menu {
+	width: 100%;
+	position: relative;
+	top: 100px;
+	background: #ebebeb;
+	height: 4000px;
+}
+.content-area-menu h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area-menu p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+.wrapper .child
+{
+	width:1000px;
+	height:1000px;
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:60%;
+	right:0;
+	margin:auto;
+}
+
+.audiobook
+{
+	padding-top: 30px;
+}
+.kontakt
+{
+	padding: 20px;
+}
+.download_CV{
+	margin: auto;
+	align-items: center;
+	padding: 10px	;
+}
+
+.onefile_CV{
+	/* background-color: blue; */
+	display: inline-block;
+	width: 30%;
+	
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.button {
+	background-color: #4caf50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 20px;
+	font-size: 16px;
+  }
+
+  .button a{
+	color: inherit;
+  }
+
+  .button:hover {
+	background-color:cadetblue; /* Green */
+  }
+
+  .buttonLinkedin {
+	background-color: #0077b5; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 20px;
+	font-size: 16px;
+  }
+  .buttonLinkedin:hover {
+	background-color:#3b98d2; /* Green */
+  }
+  .buttonLinkedin a{
+	color: inherit;
+  }
+
+.automatortext{ 
+	background-color: inherit; /* Green */
+	border: none;
+	color: #262626;
+	padding: 15px 32px;
+	padding-top: 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 20px;
+	font-size: 20px;
+}
+
+.automatortext h5{
+	font-size: 35px;
+}
+
+.automatortext u{
+	font-size: 35px;
+	text-decoration: solid underline #F4976C 4px;
+
+}
+
+
+.automatorimage img{
+	border-radius: 10px;
+}
+
+.audiobook img{
+	padding-bottom: 4%;
+}
+
+.automatortext ul{
+	text-align: center;
+	list-style-type: none;
+	display: block;
+
+	/* display: inline; */
+}
+.automatortext li{
+	text-align: center;
+	font-weight: 900;
+	display: block;
+
+
+}
+.contact_photo_border img{
+	margin-top: 40px;
+	border-radius: 15px;
+}
+
+.columns{
+	columns: 300px 2;
+	background-color: inherit; /* Green */
+	margin: 20px;
+
+}
